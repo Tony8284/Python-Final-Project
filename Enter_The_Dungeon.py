@@ -239,8 +239,8 @@ def fifth_floor_scene():
         print_slow("You get teleported back to the begining of the dungeon. No recollection of a town, but deep down you know you defeated the dragon.")
         print_slow("The demon face in the door starts laughing.")
         print_slow("Are you ready to reach the tenth floor?")
-        print_slow()
-        print_slow()
+        print()
+        print()
         print_slow("To Be Continued!!!!")
         print_slow("Neutral Ending 1/3")
 
@@ -257,8 +257,8 @@ def fifth_floor_scene():
         print_slow("The demon in the wall laughs and congratulates you.")
         print_slow("You are not fit for these early floors.")
         print_slow("Are you ready to reach the 50th floor?")
-        print_slow()
-        print_slow()
+        print()
+        print()
         print_slow("To Be Continued!!!!")
         print_slow("True Ending 3/3")
 
@@ -277,8 +277,8 @@ def fifth_floor_scene():
         print_slow("Both of you fall flat on the ground unmoving.")
         print_slow("You took each other out.")
         print_slow("Valiantly Fought.")
-        print_slow()
-        print_slow()
+        print()
+        print()
         print_slow("You Died in the process but you still beat the fifth floor boss.")
         print_slow("Bad Ending 2/3")
         
@@ -291,16 +291,16 @@ def fifth_floor_scene():
 def the_game_itself(choice_1):
     if choice_1.lower() in ["fight","attack","kill","engage"]:
         goblin_fight()
-        print_slow()
+        print()
         second_floor()
         print_slow("[A] Fight         [B] Dash         [C] Use Goblin's Loot")
         second_floor_choice_1 = input()
         second_floor_function_first_choice(second_floor_choice_1)
-        print_slow()
+        print()
         third_floor()
         third_floor_input = input()
         third_floor_scene(third_floor_input)
-        print_slow()
+        print()
         fourth_floor_scene1()
 
         while True:
@@ -313,8 +313,8 @@ def the_game_itself(choice_1):
                 print_slow("bro its a multiple choice question")
                 print_slow("TRY AGAIN, you dont have a choice in the matter")
         
-        print_slow()
-        print_slow()
+        print()
+        print()
         
         fifth_floor_scene()
 
@@ -333,14 +333,14 @@ def the_game_itself(choice_1):
        goblin_run()
        second_floor()
        print_slow("[A] Fight         [B] Dash")
-       print_slow()
+       print()
        second_floor_choice_2 = input()
        second_floor_function_second_choice(second_floor_choice_2)
-       print_slow()
+       print()
        third_floor()
        third_floor_input = input()
        third_floor_scene(third_floor_input)
-       print_slow()
+       print()
        fourth_floor_scene1()
 
        while True:
@@ -354,8 +354,8 @@ def the_game_itself(choice_1):
                 print_slow("TRY AGAIN, you dont have a choice in the matter")
         
 
-       print_slow()
-       print_slow()
+       print()
+       print()
        fifth_floor_scene()
 
 
